@@ -2,12 +2,13 @@
 	"name": "theme-shangri-la",
 	"displayName": "%displayName%",
 	"description": "%description%",
-	"version": "1.0.4",
+	"version": "1.0.5",
 	"publisher": "DannyVi",
 	"license": "MIT",
 	"engines": {
 		"vscode": "*"
 	},
+	"icon": "icon.png",
 	"contributes": {
 		"themes": [
 			{
