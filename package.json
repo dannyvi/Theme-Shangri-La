@@ -2,7 +2,7 @@
 	"name": "theme-shangri-la",
 	"displayName": "%displayName%",
 	"description": "%description%",
-	"version": "1.0.2",
+	"version": "1.0.4",
 	"publisher": "DannyVi",
 	"license": "MIT",
 	"engines": {

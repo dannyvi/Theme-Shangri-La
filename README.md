@@ -1,4 +1,4 @@
 # Shangri-La Theme 
 
-![](./shangri-la.png)
-![](./shangri-la2.png)
+![](https://dannyvi-assets.oss-cn-beijing.aliyuncs.com/shangri-la.png)
+![](https://dannyvi-assets.oss-cn-beijing.aliyuncs.com/shangri-la2.png)
