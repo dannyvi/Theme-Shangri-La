@@ -1,0 +1,25 @@
+{
+	"name": "theme-shangri-la",
+	"displayName": "%displayName%",
+	"description": "%description%",
+	"version": "1.0.2",
+	"publisher": "DannyVi",
+	"license": "MIT",
+	"engines": {
+		"vscode": "*"
+	},
+	"contributes": {
+		"themes": [
+			{
+				"label": "Shangri-La",
+				"uiTheme": "vs",
+				"path": "./themes/shangri-la-theme.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "2ffb529b-914d-49e6-9b83-5793e1f042ea",
+		"publisherDisplayName": "DannyVi",
+		"publisherId": "9895cc14-b670-4123-bc5d-9cdffb67b006"
+	}
+}
