@@ -19,7 +19,7 @@
 			],
 			"settings": {
 				//"fontStyle": "italic",
-				"foreground": "#d1d1d1"
+				"foreground": "#ddd9d9"
 			}
 		},
 		{
@@ -27,7 +27,7 @@
 			"scope": "comment.block.preprocessor",
 			"settings": {
 				//"fontStyle": "",
-				"foreground": "#AAAAAA"
+				"foreground": "#d8d8d8"
 			}
 		},
 		{
@@ -38,7 +38,7 @@
 				"comment.block.documentation punctuation.definition.comment "
 			],
 			"settings": {
-				"foreground": "#dee2d5"
+				"foreground": "#dbddd7"
 			}
 		},
 		{
@@ -155,8 +155,24 @@
 			}
 		},
 		{
-			"name": "Strings",
+			"name": "BaseStrings",
 			"scope": "string",
+			"settings": {
+				"foreground": "#dddddd"
+			}
+		},
+		{
+			"name": "Strings",
+			"scope": [
+				"string.quoted.double",
+				"string.quoted.single",
+				"string.quoted.triple",
+				"string.quoted.other",
+				"string.interpolated",
+				"string.unquoted",
+				"string.other"
+
+			],
 			"settings": {
 				"foreground": "#19a82c"
 			}
@@ -177,7 +193,10 @@
 		},
 		{
 			"name": "Strings: Symbols",
-			"scope": "constant.other.symbol",
+			"scope": [
+				"constant.other.symbol",
+				"string.quoted.triple"
+			],
 			"settings": {
 				"foreground": "#d4baa2"
 			}
@@ -490,7 +509,17 @@
 			"settings": {
 				"foreground": "#333333ff"
 			}
+		},
+		{
+			"name": "Warning",
+			"scope": "invalid",
+			"settings": {
+				"foreground": "#bbbbbb",
+				
+			}
+
 		}
+
 	],
 	"colors": {
 		"focusBorder": "#A6B39B",
@@ -512,7 +541,7 @@
 		
 
 		"editor.background": "#ffffff",
-		"editor.foreground": "#c9c9c3",
+		"editor.foreground": "#83837d",
 		
 		"editorGroup.border": "#f8f6f6",
 		
@@ -527,7 +556,6 @@
 		//"editorGutter.background": "#ff0000",
 		"editorGutter.addedBackground": "#0ccf16",
 		"peekViewEditorGutter.background": "#ff0000",
-		"editorInfo.foreground": "#d15656",
 		"editorSuggestWidget.foreground": "#7ec3e2",
 		"editorSuggestWidget.background": "#fffefe",
 		"editorSuggestWidget.border": "#0c99eb",
@@ -544,6 +572,7 @@
 		"editorWhitespace.foreground": "#fffef6",
 		"editorGroup.dropBackground": "#56e0742d",
 		"editorGroupHeader.tabsBackground": "#f5f5e9",
+		
 
 		"editorRuler.foreground": "#424450",
         "editorCodeLens.foreground": "#6272A4",
@@ -672,5 +701,12 @@
 		"terminal.ansiBrightMagenta": "#6c71c4",
 		"terminal.ansiBrightCyan": "#65b3fc",
 		"terminal.ansiBrightWhite": "#ffffff",
+		
+			
+		"editorError.foreground":   "#ff000021",
+		"editorWarning.foreground": "#ffd00060",
+		"editorInfo.foreground":    "#99e29988"
+			
+		
 	}
 }
