@@ -2,7 +2,7 @@
 	"name": "theme-shangri-la",
 	"displayName": "%displayName%",
 	"description": "%description%",
-	"version": "1.0.5",
+	"version": "2.0.1",
 	"publisher": "DannyVi",
 	"license": "MIT",
 	"engines": {
@@ -15,12 +15,18 @@
 				"label": "Shangri-La",
 				"uiTheme": "vs",
 				"path": "./themes/shangri-la-theme.json"
+			},
+			{
+				"label": "Blue-Moon",
+				"uiTheme": "vs",
+				"path": "./themes/blue-moon.json"
 			}
 		]
 	},
 	"__metadata": {
 		"id": "2ffb529b-914d-49e6-9b83-5793e1f042ea",
+		"publisherId": "9895cc14-b670-4123-bc5d-9cdffb67b006",
 		"publisherDisplayName": "DannyVi",
-		"publisherId": "9895cc14-b670-4123-bc5d-9cdffb67b006"
+		"installedTimestamp": 1641567203949
 	}
 }
