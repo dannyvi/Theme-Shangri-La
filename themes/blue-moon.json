@@ -2,13 +2,14 @@
 	"$schema": "vscode://schemas/color-theme",
 	"name": "Blue-Moon",
 	"tokenColors": [
+		
 		{
 			"scope": [
 				"meta.embedded",
-				"source.groovy.embedded"
+				"source.groovy.embedded",
 			],
 			"settings": {
-				"foreground": "#757158"
+				"foreground": "#bdb795"
 			}
 		},
 		{
@@ -60,7 +61,7 @@
 			"name": "Operators",
 			"scope": "keyword.operator",
 			"settings": {
-				"foreground": "#777777"
+				"foreground": "#d3bd80"
 			}
 		},
 		{
@@ -165,7 +166,7 @@
 			"name": "Strings: Escape Sequences",
 			"scope": "constant.character.escape",
 			"settings": {
-				"foreground": "#777777"
+				"foreground": "#a89a9a"
 			}
 		},
 		{
@@ -199,6 +200,45 @@
 				"foreground": "#54ca6d"
 			}
 		},
+		{
+			"name": "Punctuation",
+			"scope": [
+				"keyword.operator.other.powershell",
+                "keyword.other.statement-separator.powershell",
+                "meta.brace",
+                // "meta.function-call punctuation",
+                // "punctuation.definition.arguments.begin",
+                // "punctuation.definition.arguments.end",
+                // "punctuation.definition.entity.begin",
+                // "punctuation.definition.entity.end",
+                // "punctuation.definition.tag.cs",
+                // "punctuation.definition.type.begin",
+                // "punctuation.definition.type.end",
+                // "punctuation.section.scope.begin",
+                // "punctuation.section.scope.end",
+                // "storage.type.generic.java",
+                // "string.template meta.brace",
+                // "string.template punctuation.accessor",
+				// "support.class.console,support.class.component",
+			], 
+			"settings": {
+				"foreground": "#f3d2a0"
+			}
+		},
+		// {
+		// 	"name": "Embedded ",
+		// 	"scope": [
+		// 		"variable",
+        //         "constant.other.key.perl",
+        //         "support.variable.property",
+        //         "variable.other.constant.js",
+        //         "variable.other.constant.ts",
+        //         "variable.other.constant.tsx"
+		// 	],
+		// 	"settings": {
+		// 		"foreground": "#b4aeeb"
+		// 	}
+		// },	
 		{
 			"name": "Embedded Source",
 			"scope": [
@@ -532,10 +572,10 @@
 		"editor.snippetFinalTabstopHighlightBackground": "#ff0000",
 		"editor.selectionHighlightBackground": "#ffecec",
 		"editor.wordHighlightStrongBackground": "#ffff00",
-
-
+		
 		// "editor.hoverHighlightBackground": "#ff0000",
 		//"editorGutter.background": "#ff0000",
+
 		"editorGroup.border": "#f8f6f6",
 		"editorBracketMatch.background": "#fdf9f7",
 		"editorBracketMatch.border": "#fffb00",
